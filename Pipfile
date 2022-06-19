@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+matplotlib = "*"
+# ESs
+cma = "*"
+# COCO experiments
+cocoex = {file = "file:///home/ubuntu/coco/code-experiments/build/python"}
+# Debugging
+ipython = "*"
+brutelogger = "*"
+# Convenience
+tqdm = "*"
+notify-run = "*"
+dibb = {extras = ["cma"], version = "*"}
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true

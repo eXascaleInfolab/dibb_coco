@@ -1,0 +1,5 @@
+merging/data/
+**/exdata/
+**/ppdata/
+**/.ipynb_checkpoints/
+**/.ropeproject/
